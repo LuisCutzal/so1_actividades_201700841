@@ -1,11 +1,11 @@
 #!/bin/bash
-
+while true; do
 # URL del API de GitHub
 URL="https://api.github.com/users/"
 #echo "$GITHUB_USER"
 
 #Fecha
-fecha=$(date +'%d-%m-%Y')
+fecha=$(date)
 #echo "$fecha"
 
 #directorio carpeta tmp
@@ -30,3 +30,10 @@ echo "$message" > "$LOGFILE"
 
 # Mostrar el mensaje en la consola
 echo "$message"
+
+#nohup whatch -n 5 "ls" 
+sleep 300  # Espera 300 segundos (5 minutos)
+done
+
+#comando para el cronjob
+#nohup ./actividad2.sh > nohup.out 2>&1 &
