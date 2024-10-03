@@ -29,5 +29,5 @@ Se le conoce como: planificador de procesos predeterminado en Linux, el cual gar
 
 2. Complejidad en su configuración: Ajustar sus parámetros puede ser complicado para usuarios que no tengan experiencia avanzada con sistemas operativos.
 
-
+![alt text](image.png)
 
